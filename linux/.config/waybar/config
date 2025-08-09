@@ -3,11 +3,19 @@
   "position": "top",
   "modules-left": ["sway/workspaces", "sway/mode"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "pulseaudio", "battery", "cpu", "memory", "tray"],
+  "modules-right": ["bluetooth", "network", "pulseaudio", "battery", "cpu", "memory", "tray"],
 
   "clock": {
     "format": "%a %d %b %Y %H:%M:%S"
   },
+
+ "bluetooth": {
+    "format": " {status}",
+    "format-connected": " {device_alias}",
+    "format-off": " Off",
+    "on-click": "bluetoothctl power on || bluetoothctl power off",
+    "on-click-right": "bluetoothctl scan on"
+}
 
   "network": {
     "interface": "wlp2s0",
