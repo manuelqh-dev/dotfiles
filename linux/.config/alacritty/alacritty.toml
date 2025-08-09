@@ -8,9 +8,36 @@ dynamic_padding = true
 normal.family = "JetBrains Mono"
 size = 12.0
 
+# Default colors
 [colors.primary]
-background = "0x1e1e2e"
-foreground = "0xc0caf5"
+background: '0D0D0D'
+foreground: '00FF66'
+
+[colors.cursor]
+text = '#0D0D0D'      
+cursor = '#FF00A0' 
+
+# Normal colors
+[colors.normal]
+black:   '0D0D0D'
+red:     'FF00A0'
+green:   '00FF66'
+yellow:  'FF00A0'
+blue:    '202020'
+magenta: 'FF00A0'
+cyan:    '00FF66'
+white:   'FFFFFF'
+
+# Bright colors
+[colors.bright]
+black:   '151515'
+red:     'FF00A0'
+green:   '00FF66'
+yellow:  'FF00A0'
+blue:    '202020'
+magenta: 'FF00A0'
+cyan:    '00FF66'
+white:   'FFFFFF'
 
 [env]
 TERM = "xterm-256color"
