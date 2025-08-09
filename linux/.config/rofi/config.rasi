@@ -1,0 +1,46 @@
+/* Midnight Circuit Rofi theme */
+
+configuration {
+    font:				"JetBrains Mono 12";
+    disable-history:			false;
+    sidebar-mode:			false;
+}
+
+window {
+    background: #0D0D0D;
+    border: 2px solid #FF00A0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+mainbox {
+    background: #151515;
+    border-radius: 5px;
+}
+
+element {
+    background: #202020;
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+
+element:selected {
+    background: #FF00A0;
+    color: #0D0D0D;
+}
+
+element:focused {
+    background: #00FF66;
+    color: #0D0D0D;
+}
+
+textbox {
+    background: #151515;
+    border-radius: 3px;
+    color: #00FF66;
+}
+
+scrollbar {
+    background: #151515;
+    handle: #FF00A0;
+}
