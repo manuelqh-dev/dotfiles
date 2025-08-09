@@ -23,7 +23,7 @@ cp -r "$DOTFILES_DIR/linux/.config/hypr/"* ~/.config/hypr/
 cp -r "$DOTFILES_DIR/linux/.config/waybar/"* ~/.config/waybar/
 cp -r "$DOTFILES_DIR/linux/.config/mako/"* ~/.config/mako/
 cp -r "$DOTFILES_DIR/linux/.config/alacritty/"* ~/.config/alacritty/
-cp -r "$DOTFILES_DIR/linux/.config/rofi/"* ~/.config/rofi/
+cp -r "$DOTFILES_DIR/linux/.config/wofi/"* ~/.config/wofi/
 cp -r "$DOTFILES_DIR/linux/.config/nvim/"* ~/.config/nvim/
 cp -r "$DOTFILES_DIR/linux/.zshrc"* ~/.zshrc
 
