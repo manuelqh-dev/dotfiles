@@ -1,0 +1,6 @@
+font=JetBrains Mono 12
+prompt=Search...
+allow_markup=true
+width=600
+lines=10
+show=drun
