@@ -1,0 +1,35 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  color: #c0caf5;
+  background: #1a1b26;
+  padding: 4px 8px;
+}
+
+#clock {
+  color: #7aa2f7;
+}
+
+#battery {
+  color: #9ece6a;
+}
+
+#cpu {
+  color: #f7768e;
+}
+
+#memory {
+  color: #e0af68;
+}
+
+#network {
+  color: #bb9af7;
+}
+
+#pulseaudio {
+  color: #3dcfff;
+}
+
+#tray {
+  background: transparent;
+}

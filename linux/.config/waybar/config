@@ -1,0 +1,32 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery", "cpu", "memory", "tray"],
+
+  "clock": {
+    "format": "%a %d %b %Y %H:%M:%S"
+  },
+
+  "network": {
+    "interface": "wlp2s0",
+    "format": "{ifname}: {ipaddr}"
+  },
+
+  "pulseaudio": {
+    "format": "{volume}%"
+  },
+
+  "battery": {
+    "format": "{capacity}%"
+  },
+
+  "cpu": {
+    "format": "{usage}%"
+  },
+
+  "memory": {
+    "format": "{used}/{total} MB"
+  }
+}
