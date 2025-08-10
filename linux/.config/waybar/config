@@ -15,7 +15,7 @@
     "format-off": " Off",
     "on-click": "bluetoothctl power on || bluetoothctl power off",
     "on-click-right": "bluetoothctl scan on"
-}
+},
 
   "network": {
     "interface": "wlp2s0",
