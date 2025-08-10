@@ -4,6 +4,9 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["bluetooth", "network", "pulseaudio","cpu", "memory"],
+  "spacing": 10,
+  "margin": "10 10 0 10",
+
 
   "clock": {
     "format": "{:%a %d %b %Y  %H:%M:%S}"
