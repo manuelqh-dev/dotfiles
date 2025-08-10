@@ -17,7 +17,7 @@ fi
 
 echo "[+] Copiando archivos de configuración a ~/.config..."
 
-mkdir -p ~/.config/hypr ~/.config/waybar ~/.config/mako ~/.config/alacritty ~/.config/rofi ~/.config/nvim
+mkdir -p ~/.config/hypr ~/.config/hypr/themes ~/.config/waybar ~/.config/waybar/themes ~/.config/mako ~/.config/alacritty ~/.config/alacritty/themes ~/.config/wofi ~/.config/nvim
 
 cp -r "$DOTFILES_DIR/linux/.config/hypr/"* ~/.config/hypr/
 cp -r "$DOTFILES_DIR/linux/.config/waybar/"* ~/.config/waybar/
@@ -25,7 +25,7 @@ cp -r "$DOTFILES_DIR/linux/.config/mako/"* ~/.config/mako/
 cp -r "$DOTFILES_DIR/linux/.config/alacritty/"* ~/.config/alacritty/
 cp -r "$DOTFILES_DIR/linux/.config/wofi/"* ~/.config/wofi/
 cp -r "$DOTFILES_DIR/linux/.config/nvim/"* ~/.config/nvim/
-cp -r "$DOTFILES_DIR/linux/.zshrc"* ~/.zshrc
+cp "$DOTFILES_DIR/linux/.zshrc" ~/.zshrc
 
 echo "[✓] Dotfiles copiados con éxito."
 
