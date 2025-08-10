@@ -1,12 +1,12 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-left": ["hyprland/workspaces", "hyprland/submap"],
   "modules-center": ["clock"],
-  "modules-right": ["bluetooth", "network", "pulseaudio", "battery", "cpu", "memory", "tray"],
+  "modules-right": ["bluetooth", "network", "pulseaudio" "cpu", "memory", "tray"],
 
   "clock": {
-    "format": "%a %d %b %Y %H:%M:%S"
+    "format": "{ %a %d %b %Y  %H:%M:%S}"
   },
 
  "bluetooth": {
@@ -24,10 +24,6 @@
 
   "pulseaudio": {
     "format": "{volume}%"
-  },
-
-  "battery": {
-    "format": "{capacity}%"
   },
 
   "cpu": {
