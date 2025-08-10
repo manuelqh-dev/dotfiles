@@ -34,7 +34,7 @@
     "format": "{used}/{total} MB"
   },
 
-  "hyprland/workspaces"": {
+  "hyprland/workspaces": {
     "format": "{icon}",
     "icon-map": {
       "1": "",  
