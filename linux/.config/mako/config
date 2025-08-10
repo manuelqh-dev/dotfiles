@@ -14,7 +14,7 @@ margin=10
 spacing=10
 
 # Fuente y tamaño
-font=pango:JetBrains Mono 12
+font=pango:JetBrains Mono Nerd Font 12
 
 # Colores
 background=#1e1e2e
