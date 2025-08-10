@@ -32,5 +32,22 @@
 
   "memory": {
     "format": "{used}/{total} MB"
+  },
+
+  "workspaces": {
+    "format": "{icon} {name}",
+    "icon-map": {
+      "1": "",   // Terminal icon
+      "2": "",   // Browser icon
+      "3": "",   // Folder icon
+      "4": "",   // Music icon
+      "5": "",   // Video icon
+      "6": "",   // Code icon
+      "7": "",   // Chat icon
+      "8": "",   // Settings icon
+      "9": "",   // Graphics icon
+      "10": ""   // Lock icon
+    }
   }
+
 }
