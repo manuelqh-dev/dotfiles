@@ -3,35 +3,45 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["bluetooth", "network", "pulseaudio","cpu", "memory", "tray"],
+  "modules-right": ["bluetooth", "network", "pulseaudio","cpu", "memory"],
 
   "clock": {
     "format": "{:%a %d %b %Y  %H:%M:%S}"
   },
 
  "bluetooth": {
-    "format": " {status}",
-    "format-connected": " {device_alias}",
-    "format-off": " Off",
+    "format": "",
+    "tooltip-format": "{status} {device_alias}",
     "on-click": "bluetoothctl power on || bluetoothctl power off",
     "on-click-right": "bluetoothctl scan on"
 },
 
   "network": {
     "interface": "wlp2s0",
-    "format": "{ifname}: {ipaddr}"
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "",
+    "tooltip-format": "{ifname} - {essid} ({signalStrength}%)"
   },
 
   "pulseaudio": {
-    "format": "{volume}%"
+    "format": "",
+    "format-muted": "",
+    "tooltip-format": "Volumen: {volume}%",
+    "scroll-step": 5
   },
 
   "cpu": {
-    "format": "{usage}%"
+    "interval": 2,
+    "format": "", // icono CPU
+    "tooltip-format": "CPU: {usage}%",
+    "max-length": 3
   },
 
   "memory": {
-    "format": "{used}/{total} MB"
+    "interval": 5,
+    "format": "",
+    "tooltip-format": "RAM usada: {used} / {total} ({percentage}%)"
   },
 
 "hyprland/workspaces": {
