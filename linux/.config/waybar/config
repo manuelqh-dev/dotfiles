@@ -34,22 +34,6 @@
     "format": "{used}/{total} MB"
   },
 
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "icon-map": {
-      "1": "",  
-      "2": "", 
-      "3": "",  
-      "4": "",  
-      "5": "",   
-      "6": "",  
-      "7": "",  
-      "8": "",  
-      "9": "",   
-      "10": ""  
-    }
-  }
-
 "hyprland/workspaces": {
   // Permite usar scroll en el módulo para cambiar workspace (false = activado)
   "disable-scroll": false,
@@ -78,7 +62,7 @@
       "6": "",  
       "7": "",  
       "8": "",  
-      "9": ""  
+      "9": "",
       "default": "" // Icono por defecto si no hay uno específico
   }
 }
