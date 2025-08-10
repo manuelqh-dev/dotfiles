@@ -8,7 +8,8 @@ dynamic_padding = true
 normal.family = "JetBrains Mono"
 size = 12.0
 
-general.import = [
+[general]
+import = [
   "~/.config/alacritty/themes/catppuccin-mocha.toml"
 ]
 
