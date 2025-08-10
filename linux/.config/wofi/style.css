@@ -4,6 +4,7 @@
     background-color: #1e1e2e; /* base */
     color: #cdd6f4; /* text */
     border: 2px solid #cba6f7; /* mauve */
+    border-radius: 10px;
 }
 
 #input {
