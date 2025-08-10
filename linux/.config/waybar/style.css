@@ -1,7 +1,7 @@
 @import "themes/mocha.css";
 
 * {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "JetBrains Mono Nerd Font", monospace;
   font-size: 12px;
   color: @text;
   background: @crust;          
