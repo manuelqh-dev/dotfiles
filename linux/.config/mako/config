@@ -17,16 +17,20 @@ spacing=10
 font=pango:JetBrains Mono 12
 
 # Colores
-background=#0D0D0D
-text=#00FF66
-border-color=#FF00A0
+background=#1e1e2e
+text=#cdd6f4
+border-color=#f5c2e7       
+progress-color=#313244  
 border-size=2
 
+[urgency=low]
+background-color=#181825  
+
+[urgency=normal]
+background-color=#1e1e2e  
+
 [urgency=critical]
-background=#FF00A0
-text=#0D0D0D
-border-color=#FF00A0
-timeout=8000
+border-color=#fab387
 
 # Bordes (top, right, bottom, left) en px
 border-width=2
