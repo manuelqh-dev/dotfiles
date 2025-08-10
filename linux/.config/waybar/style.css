@@ -1,29 +1,31 @@
+@import "themes/mocha.css";
+
 * {
   font-family: "JetBrains Mono", monospace;
   font-size: 12px;
-  color: #00FF66;
-  background: #0D0D0D;
+  color: @text;
+  background: @crust;          
   padding: 4px 8px;
 }
 
 #clock {
-  color: #FF00A0;
+  color: @pink;         
 }
 
 #cpu {
-  color: #FF00A0;
+  color: @pink;  
 }
 
 #memory {
-  color: #00FF66;
+  color: @green;    
 }
 
 #network {
-  color: #00FF66;
+  color: @green; 
 }
 
 #pulseaudio {
-  color: #00FF66;
+  color: @green;
 }
 
 #tray {
@@ -31,11 +33,14 @@
 }
 
 #waybar {
-  background-color: #151515;
-  border-bottom: 2px solid #FF00A0;
+  border-radius: 10px;
+  margin: 10px 15px 0 15px;
+  padding: 6px 12px;
+  background-color: @mantle;  
+  border-bottom: 2px solid @pink; 
 }
 
 .tooltip {
-  background-color: #202020;
-  color: #FF00A0;
+  background-color: @base;   
+  color: @pink;
 }
