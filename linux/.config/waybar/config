@@ -50,4 +50,37 @@
     }
   }
 
+"hyprland/workspaces": {
+  // Permite usar scroll en el módulo para cambiar workspace (false = activado)
+  "disable-scroll": false,
+
+  // Muestra los workspaces en todas las pantallas conectadas
+  "all-outputs": true,
+
+  // Muestra solo el icono de cada workspace en la barra
+  "format": "{icon}",
+
+  // Al hacer clic en un workspace, se activa ese workspace
+  "on-click": "activate",
+
+  // Define workspaces que siempre están activos (persistentes) en todas las pantallas
+  "persistent-workspaces": {
+    "*": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  },
+
+  // Mapeo de iconos para cada workspace
+  "format-icons": {
+      "1": "",  
+      "2": "", 
+      "3": "",  
+      "4": "",  
+      "5": "",   
+      "6": "",  
+      "7": "",  
+      "8": "",  
+      "9": ""  
+      "default": "" // Icono por defecto si no hay uno específico
+  }
+}
+
 }
