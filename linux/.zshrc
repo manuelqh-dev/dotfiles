@@ -39,6 +39,10 @@ zinit light romkatv/powerlevel10k
 
 ## Plugins útiles
 zinit light zsh-users/zsh-autosuggestions
+
+# Cambiar la tecla TAB para aceptar la sugerencia
+bindkey '^I' autosuggest-accept
+
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-history-substring-search
 
