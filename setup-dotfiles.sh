@@ -26,6 +26,8 @@ cp -r "$DOTFILES_DIR/linux/.config/alacritty/"* ~/.config/alacritty/
 cp -r "$DOTFILES_DIR/linux/.config/wofi/"* ~/.config/wofi/
 cp -r "$DOTFILES_DIR/linux/.config/nvim/"* ~/.config/nvim/
 cp "$DOTFILES_DIR/linux/.zshrc" ~/.zshrc
+cp "$DOTFILES_DIR/linux/.p10k.zsh" ~/.p10k.zsh"
+cp "$DOTFILES_DIR/linux/.gitconfig" ~/.gitconfig"
 
 echo "[✓] Dotfiles copiados con éxito."
 
