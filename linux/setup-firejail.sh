@@ -23,11 +23,13 @@ mkdir -p "$(dirname "$DESKTOP_FILE")"
 cat > "$DESKTOP_FILE" <<EOF
 [Desktop Entry]
 Name=Firefox (Firejail)
-Exec=firejail firefox %u
+Terminal=false
+Exec=firejail /usr/lib/firefox-developer-edition/firefox %u
 Icon=firefox
 Type=Application
 Categories=Network;WebBrowser;
 StartupNotify=true
+
 EOF
 
 echo "[+] Lanzador firefox-firejail.desktop creado en $DESKTOP_FILE"
